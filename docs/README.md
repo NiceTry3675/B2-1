@@ -10,7 +10,7 @@
 
 | 과제 목표 (requirement.md 3장) | 먼저 읽을 문서 | 핵심 코드 |
 | --- | --- | --- |
-| 파일 기반 저장(JSONL/CSV)으로 영구 저장하고, CRUD/검색/요약/입출력을 구현할 수 있다 | [02. 파일 저장소](02-file-storage.md), [07. CSV 가져오기/내보내기](07-csv-import-export.md) | `storage.py`, `csv_io.py` |
+| 파일 기반 저장(JSONL/CSV)으로 영구 저장하고, CRUD/검색/요약/입출력을 구현할 수 있다 | [02. 파일 저장소](02-file-storage.md), [07. CSV 가져오기/내보내기](07-csv-import-export.md), [11. 형식 비교와 확장 전략](11-storage-format-and-scaling.md) | `storage.py`, `csv_io.py` |
 | 콘솔 프로그램을 클래스/모듈로 구조화하고, 계층별 책임을 설명할 수 있다 | [01. 계층 구조](01-architecture.md) | `cli.py` → `services.py` → `storage.py` → `models.py` |
 | `yield` 기반 제너레이터로 대용량 파일을 스트리밍하는 이유와 동작을 설명할 수 있다 | [03. 제너레이터와 스트리밍](03-generators-streaming.md) | `JsonlFile.iter_raw`, `filter_transactions`, `newest_first` |
 | 데코레이터로 공통 관심사(로그/예외/시간 측정)를 분리한 구조와 이유를 설명할 수 있다 | [04. 데코레이터](04-decorators.md) | `decorators.py`, `cli.dispatch` |
@@ -28,6 +28,7 @@
 8. **[08. 보너스 기능 해설](08-bonus-features.md)**: 백업/복원, 반복 거래, 표 정렬, 저장 원자성을 다룹니다.
 9. **[09. 테스트 전략](09-testing.md)**: 사람 없이 대화형 프로그램을 테스트하는 방법을 다룹니다.
 10. **[10. 스스로 점검하기](10-self-check.md)**: 설명 연습 질문, 모범 답안, 확장 과제가 있습니다.
+11. **[11. 저장 형식 비교(JSONL vs CSV)와 10만 건 이상 확장 전략](11-storage-format-and-scaling.md)**: 검색·편집성·원자성·성능을 측정값으로 비교하고, 10만·50만 건에서 명령별 병목과 개선안의 비용·효과를 정리합니다.
 
 ## 실습 준비
 
