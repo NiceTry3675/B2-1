@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "budget-app"
+version = "1.0.0"
+description = "파일(JSONL) 기반 Python 콘솔 가계부"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []  # 표준 라이브러리만 사용
+
+[project.scripts]
+budget = "budget_app.cli:main"
+
+[tool.setuptools]
+packages = ["budget_app"]
+
+[tool.mypy]
+python_version = "3.9"
+strict = true
+files = ["budget_app"]

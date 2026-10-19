@@ -1,0 +1,9 @@
+date,type,category,amount,memo,tags
+2026-10-01,expense,food,9000,정상 행,점심
+2026-02-30,expense,food,5000,존재하지 않는 날짜,
+2026-10-03,transfer,food,5000,허용되지 않은 타입,
+2026-10-04,expense,food,-3000,음수 금액,
+2026-10-05,expense,food,0,0원,
+2026-10-06,expense,coffee,4500,등록되지 않은 카테고리,카페
+2026-10-07,expense,food,12.5,소수점 금액,
+2026-10-08,expense,food,7000,쉼표를 따옴표 없이 씀,점심,회사

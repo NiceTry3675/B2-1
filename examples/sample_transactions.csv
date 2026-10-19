@@ -1,0 +1,12 @@
+date,type,category,amount,memo,tags
+2026-09-25,income,salary,3200000,9월 급여,월급
+2026-10-01,expense,rent,650000,10월 월세,고정비
+2026-10-02,expense,food,12000,점심 김치찌개,"점심,회사"
+2026-10-03,expense,transport,1450,지하철,출퇴근
+2026-10-05,expense,shopping,45900,운동화,
+2026-10-07,expense,food,38000,친구와 저녁,"저녁,친구"
+2026-10-10,income,etc,50000,중고거래 판매,중고
+2026-10-12,expense,utilities,82000,전기·가스 요금,고정비
+2026-10-15,expense,health,15000,약국,
+2026-10-18,expense,food,8500,카페 라떼,카페
+2026-10-25,income,salary,3200000,10월 급여,월급

@@ -1,0 +1,11 @@
+# 가계부 데이터 (개인 정보이므로 저장소에 올리지 않는다)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.mypy_cache/
